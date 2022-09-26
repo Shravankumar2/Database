@@ -1,0 +1,53 @@
+CREATE TABLE SHK_UNION1(
+id INT,
+name VARCHAR(100),
+age INT,
+salary INT,
+department VARCHAR(100),
+place VARCHAR(100)
+);
+
+SELECT * FROM SHK_UNION1;
+
+CREATE TABLE SHK_UNION2(
+id INT,
+name VARCHAR(100),
+age INT,
+salary INT,
+department VARCHAR(100),
+place VARCHAR(100)
+);
+
+SELECT * FROM SHK_UNION2;
+
+TRUNCATE TABLE SHK_STUDENTS;
+
+CREATE TABLE SHK_UNION3(
+id INT,
+name VARCHAR(100),
+age INT,
+salary INT,
+department VARCHAR(100),
+place VARCHAR(100)
+);
+
+INSERT INTO SHK_UNION3 VALUES(7,'darshan',23,10000,'manager','delhi');
+INSERT INTO SHK_UNION3 VALUES(8,'shon',23,20000,'db','kolkata');
+INSERT INTO SHK_UNION3 VALUES(9,'sudeep',23,50000,'test','lucknow');
+
+CREATE TABLE SHK_UNION4(
+id INT,
+name VARCHAR(100),
+age INT,
+salary INT,
+department VARCHAR(100),
+place VARCHAR(100)
+);
+
+INSERT INTO SHK_UNION4 VALUES(13,'hegde',23,10000,'test','delhi');
+INSERT INTO SHK_UNION4 VALUES(14,'kaushik',24,20000,'java','kolkata');
+INSERT INTO SHK_UNION4 VALUES(15,'verendra',25,50000,'db','lucknow');
+
+SELECT * FROM SHK_UNION1;
+SELECT * FROM SHK_UNION3;
+SELECT * FROM SHK_UNION4;
