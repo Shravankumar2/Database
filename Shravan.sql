@@ -106,3 +106,30 @@ SELECT * FROM SHK_SORT;
 
 SELECT * FROM SHK_EXPRESSSION2;
 
+SELECT * FROM SHK_JOINER;
+
+CREATE TABLE SHK_RBI(
+months VARCHAR(100),
+yearr INT,
+month_number INT,
+start_date VARCHAR(100),
+end_date VARCHAR(100),
+bank_name VARCHAR(100),
+no_atms_on_site INT,
+no_atms_off_site INT,
+no_pos_on_line INT,
+no_pos_off_line INT,
+no_credit_cards INT,
+no_credit_card_atm_txn INT,
+no_credit_card_pos_txn INT,
+no_credit_card_atm_txn_value_in_mn FLOAT,
+no_credit_card_pos_txn_value_in_mn FLOAT,
+no_debit_cards INT,
+no_debit_card_atm_txn INT,
+no_debit_card_pos_txn INT,
+no_debit_card_atm_txn_value_in_mn FLOAT,
+no_debit_card_pos_txn_value_in_mn FLOAT
+);
+
+SELECT * FROM SHK_RBI;
+
