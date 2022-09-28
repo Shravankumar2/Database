@@ -102,3 +102,7 @@ no_credit_card_atm_txn_value_in_mn FLOAT
 
 SELECT * FROM SHK_RBI1;
 
+SELECT * FROM SHK_SORT;
+
+SELECT * FROM SHK_EXPRESSSION2;
+
