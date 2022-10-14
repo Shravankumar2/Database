@@ -31,7 +31,7 @@ INSERT INTO HOSPITAL VALUES(100,'Aastha Superspeciality Eye Hospital','Banashank
 (120,'Kasturba Hospital','Manipal'),
 (121,'Sparsh Hospital','Mangalore');
 
-SELECT * FROM HOSPITAL;--Returns Hospital Table
+SELECT * FROM HOSPITAL;--Returns Hospital Tables
 
 --Creating Department Table
 
